@@ -4,11 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home | Simple HTML Website</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
   <header>
-    <h1>My Simple HTML Website</h1>
+    <h1 class="site-title">My Simple HTML Website</h1>
 
     <nav aria-label="Main navigation">
       <ul>
@@ -22,11 +23,7 @@
     <section>
       <h2>About Me</h2>
 
-      <img
-        src="Images/my-photo.jpg"
-        alt="A photo of Nour"
-        width="250"
-      >
+      <img id="my-image" src="Images/my-photo.jpg" alt="A photo of Nour" width="250">
 
       <p>
         Hi! My name is Nour. I am an international student at Algonquin College.
@@ -35,7 +32,7 @@
 
     <section>
       <h2>My Hobbies</h2>
-      <ul>
+      <ul class="hobbies">
         <li>Photography</li>
         <li>Web design</li>
       </ul>

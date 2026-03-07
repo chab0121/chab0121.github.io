@@ -1,0 +1,153 @@
+/* Page background */
+body {
+    background-color: #aad4cf;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container */
+main {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #d4e9e7;
+    padding: 0 15px 20px 15px;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #d4e9e7;
+}
+
+header img {
+    width: 100%;
+    display: block;
+}
+
+/* Title on image */
+header h1 {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 52px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Navigation */
+nav {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #d4e9e7;
+}
+
+nav li {
+    flex: 1;
+    text-align: center;
+    padding: 18px 0;
+    border-right: 1px solid gray;
+    font-size: 24px;
+}
+
+nav li:last-child {
+    border-right: none;
+}
+
+/* Sections */
+section {
+    margin: 0;
+    padding: 10px 0 0 0;
+}
+
+h2 {
+    font-size: 42px;
+    font-weight: normal;
+    margin: 10px 0 15px 0;
+}
+
+/* Article image */
+section img {
+    width: 250px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+/* Paragraphs */
+p {
+    margin-top: 0;
+    line-height: 1.4;
+    font-size: 20px;
+}
+
+/* Facts list */
+ul {
+    margin-top: 0;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+/* Form */
+form {
+    border: 1px solid gray;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 12px;
+    font-size: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    border: 1px solid #999;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+textarea {
+    height: 120px;
+}
+
+/* Radio buttons */
+input[type="radio"] {
+    width: auto;
+    margin-right: 6px;
+    margin-left: 5px;
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 8px 14px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    clear: both;
+    text-align: right;
+    padding-top: 10px;
+    font-size: 16px;
+}
+ 
